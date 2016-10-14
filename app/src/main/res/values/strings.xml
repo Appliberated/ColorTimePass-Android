@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color Time Pass
+    Copyright (C) 2016 Appgramming. All rights reserved.
+    http://www.appgramming.com
+-->
+
+<resources>
+    <string name="app_name">Color Time Pass</string>
+
+    <!-- *********************************************** -->
+    <!-- Main Activity                                   -->
+    <!-- *********************************************** -->
+
+    <!-- Main Activity intent -->
+    <string name="intent_extra_date">com.appgramming.colortimepass.extra.DATE</string>
+
+    <!-- Action Bar items -->
+    <string name="action_details">True color year</string>
+    <string name="action_fullscreen">Full screen</string>
+    <string name="action_time_travel">Time travel</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_rate">Rate app</string>
+    <string name="action_rate_url" translatable="false">market://details?id=com.appgramming.colortimepass</string>
+    <string name="action_help">Help</string>
+    <string name="action_help_url" translatable="false">http://www.appgramming.com/colortimepass/</string>
+
+    <!-- Details text view content and time components -->
+    <string name="text_details">
+        <![CDATA[The true color era started on Jan 1, 1970. The current true color year is <b>%1$d %2$s</b>.
+        The next true color year will start on <b>%3$s</b> at <b>%4$s</b>. Time remaining: <b>%5$s</b>]]>
+    </string>
+    <string name="atc_era">ATC</string>
+    <string name="btc_era">BTC</string>
+    <string name="duration_day">"%03dd "</string>
+    <string name="duration_hour">"%02dh "</string>
+    <string name="duration_minute">"%02dm "</string>
+    <string name="duration_second">"%02ds"</string>
+
+    <!-- Copy to clipboard -->
+    <string name="copy_label">colortimepass</string>
+    <string name="copy_info_replacement">Text</string>
+
+    <!-- Feedback toasts -->
+    <string name="feedback_copied">%1$s copied to clipboard</string>
+    <string name="feedback_error_url">Cannot open url %1$s</string>
+    <string name="feedback_error_date">Invalid date and time</string>
+
+    <!-- Preferences -->
+    <string name="pref_details_key">pref_details_screen</string>
+
+    <!-- *********************************************** -->
+    <!-- Time Travel Activity                            -->
+    <!-- *********************************************** -->
+
+    <string name="title_activity_time_travel">Time travel</string>
+
+    <!-- Action Bar items -->
+    <string name="action_now">Back to Now</string>
+
+    <!-- Time Travel Functionality preference -->
+    <string name="pref_time_travel_diff_seconds_key">pref_time_travel_diff_seconds</string>
+
+    <!-- Time Travel Goto preference -->
+    <string name="pref_time_travel_goto_key">pref_time_travel_goto</string>
+    <string name="pref_time_travel_goto_title">Go back and forth in time</string>
+    <string name="pref_time_travel_goto_summary">Enter a specific date and time</string>
+    <string name="pref_time_travel_goto_hint">yyyy-mm-dd hh:mm:ss</string>
+
+    <!-- Sample time travel destinations -->
+    <string name="pref_category_sample_destinations_title">Sample destinations</string>
+    <string name="pref_category_sample_destinations_key">pref_category_sample_destinations</string>
+
+    <!-- Arrive Earlier preference -->
+    <string name="pref_earlier_key">pref_earlier</string>
+    <string name="pref_earlier_title">Time to look around</string>
+    <string name="pref_earlier_summary">Arrive 1 minute earlier</string>
+
+    <!-- Destination: January 22, 2010 -->
+    <string name="pref_destination_2010_01_22_key" translatable="false">pref_destination_2010_01_22</string>
+    <string name="pref_destination_2010_01_22_title">Jan 22, 2010, 08:13 AM UTC</string>
+    <string name="pref_destination_2010_01_22_summary">Astronaut sends first real-time tweet from space</string>
+    <string name="pref_destination_2010_01_22_value" translatable="false">2010-01-22 08:13:00 UTC</string>
+
+    <!-- Destination: September 11, 2001 -->
+    <string name="pref_destination_2001_09_11_key" translatable="false">pref_destination_2001_09_11</string>
+    <string name="pref_destination_2001_09_11_title">Sep 11, 2001, 8:46:40 AM EDT</string>
+    <string name="pref_destination_2001_09_11_summary">Flight 11 crashes into the World Trade Center</string>
+    <string name="pref_destination_2001_09_11_value" translatable="false">2001-09-11 08:46:40 EDT</string>
+
+    <!-- Destination: January 1, 1970 -->
+    <string name="pref_destination_1970_01_01_key" translatable="false">pref_destination_1970_01_01</string>
+    <string name="pref_destination_1970_01_01_title">Jan 1, 1970, 00:00:00 AM UTC</string>
+    <string name="pref_destination_1970_01_01_summary">The beginning of Unix time and the true color era</string>
+    <string name="pref_destination_1970_01_01_value" translatable="false">1970-01-01 00:00:00 UTC</string>
+
+    <!-- Destination: July 21, 1969 -->
+    <string name="pref_destination_1969_07_21_key" translatable="false">pref_destination_1969_07_21</string>
+    <string name="pref_destination_1969_07_21_title">Jul 21, 1969, 02:56:15 AM UTC</string>
+    <string name="pref_destination_1969_07_21_summary">Neil Armstrong makes one giant leap for mankind</string>
+    <string name="pref_destination_1969_07_21_value" translatable="false">1969-07-21 02:56:15 UTC</string>
+
+    <!-- Destination: August 6, 1945 -->
+    <string name="pref_destination_1945_08_06_key" translatable="false">pref_destination_1945_08_06</string>
+    <string name="pref_destination_1945_08_06_title">Aug 6, 1945, 8:15 AM</string>
+    <string name="pref_destination_1945_08_06_summary">The atomic bomb is dropped on Hiroshima</string>
+    <string name="pref_destination_1945_08_06_value" translatable="false">1945-08-06 08:15:00</string>
+
+    <!-- Destination: June 27, 1912 -->
+    <string name="pref_destination_1912_06_27_key" translatable="false">pref_destination_1912_06_27</string>
+    <string name="pref_destination_1912_06_27_title">Jun 27, 1912, 6:00 PM</string>
+    <string name="pref_destination_1912_06_27_summary">Richard Collier travels back Somewhere In Time</string>
+    <string name="pref_destination_1912_06_27_value" translatable="false">1912-06-27 18:00:00</string>
+
+    <!-- Destination: April 14, 1912 -->
+    <string name="pref_destination_1912_04_14_key" translatable="false">pref_destination_1912_04_14</string>
+    <string name="pref_destination_1912_04_14_title">Apr 14, 1912, 11:40 PM</string>
+    <string name="pref_destination_1912_04_14_summary">RMS Titanic hits an iceberg and begins to sink</string>
+    <string name="pref_destination_1912_04_14_value" translatable="false">1912-04-14 23:40:00</string>
+
+    <!-- Destination: October 4, 1582 -->
+    <string name="pref_destination_1582_10_4_key" translatable="false">pref_destination_1582_10_15</string>
+    <string name="pref_destination_1582_10_4_title">Oct 4, 1582, 11:59:59 PM</string>
+    <string name="pref_destination_1582_10_4_summary">The start of the eleven missing days of 1582</string>
+    <string name="pref_destination_1582_10_4_value" translatable="false">1582-10-04 23:59:59</string>
+
+    <!-- Destination: October 2, 1492 -->
+    <string name="pref_destination_1492_10_02_key" translatable="false">pref_destination_1492_10_02</string>
+    <string name="pref_destination_1492_10_02_title">Oct 2, 1492, 2:00 AM</string>
+    <string name="pref_destination_1492_10_02_summary">Christopher Columbus discovers America</string>
+    <string name="pref_destination_1492_10_02_value" translatable="false">1492-10-02 02:00:00</string>
+
+
+    <!-- *********************************************** -->
+    <!-- Settings Activity                               -->
+    <!-- *********************************************** -->
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Settings Activity preferences -->
+    <string name="pref_show_date_key">pref_show_date</string>
+    <string name="pref_show_date_title">Show date</string>
+    <string name="pref_show_date_summary">Show current date</string>
+    <string name="pref_show_time_key">pref_show_time</string>
+    <string name="pref_show_time_title">Show time</string>
+    <string name="pref_show_time_summary">Show current time</string>
+    <string name="pref_show_unix_time_key">pref_show_unix_time</string>
+    <string name="pref_show_unix_time_title">Show Unix time</string>
+    <string name="pref_show_unix_time_summary">Show seconds elapsed since Jan 1, 1970</string>
+    <string name="pref_show_color_key">pref_show_color</string>
+    <string name="pref_show_color_title">Show color</string>
+    <string name="pref_show_color_summary">Show color name or code</string>
+
+</resources>

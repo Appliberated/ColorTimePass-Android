@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color Time Pass
+    Copyright (C) 2016 Appgramming. All rights reserved.
+    http://www.appgramming.com
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="@bool/pref_show_date_default"
+        android:key="@string/pref_show_date_key"
+        android:summary="@string/pref_show_date_summary"
+        android:title="@string/pref_show_date_title"/>
+
+    <SwitchPreference
+        android:defaultValue="@bool/pref_show_time_default"
+        android:key="@string/pref_show_time_key"
+        android:summary="@string/pref_show_time_summary"
+        android:title="@string/pref_show_time_title"/>
+
+    <SwitchPreference
+        android:defaultValue="@bool/pref_show_unix_time_default"
+        android:key="@string/pref_show_unix_time_key"
+        android:summary="@string/pref_show_unix_time_summary"
+        android:title="@string/pref_show_unix_time_title"/>
+
+    <SwitchPreference
+        android:defaultValue="@bool/pref_show_color_default"
+        android:key="@string/pref_show_color_key"
+        android:summary="@string/pref_show_color_summary"
+        android:title="@string/pref_show_color_title"/>
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color Time Pass
+    Copyright (C) 2016 Appgramming. All rights reserved.
+    http://www.appgramming.com
+-->
+
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_arrow_back_white_24dp"
+        android:left="@dimen/up_indicator_padding"
+        android:right="@dimen/up_indicator_padding"/>
+</layer-list>

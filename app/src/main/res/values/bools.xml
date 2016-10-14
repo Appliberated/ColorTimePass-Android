@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color Time Pass
+    Copyright (C) 2016 Appgramming. All rights reserved.
+    http://www.appgramming.com
+-->
+
+<resources>
+    <bool name="navigation_bar_on_right">false</bool>
+
+    <!-- Preferences default values -->
+    <bool name="pref_earlier_default">true</bool>
+    <bool name="pref_show_date_default">true</bool>
+    <bool name="pref_show_time_default">true</bool>
+    <bool name="pref_show_unix_time_default">false</bool>
+    <bool name="pref_show_color_default">false</bool>
+    <bool name="pref_details_default">false</bool>
+</resources>

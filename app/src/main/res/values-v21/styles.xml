@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color Time Pass
+    Copyright (C) 2016 Appgramming. All rights reserved.
+    http://www.appgramming.com
+-->
+
+<resources>
+
+    <!-- *********************************************** -->
+    <!-- Main Activity                                   -->
+    <!-- *********************************************** -->
+
+    <!-- Main Activity theme -->
+    <style name="MainTheme" parent="android:Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/MainTheme.ActionBarStyle</item>
+        <item name="android:colorAccent">@color/color_accent</item>
+    </style>
+
+    <!-- Main Activity Action Bar style -->
+    <style name="MainTheme.ActionBarStyle" parent="android:Widget.Material.Light.ActionBar">
+        <item name="android:background">@color/color_main_action_bar</item>
+    </style>
+
+    <!-- *********************************************** -->
+    <!-- Settings Activity                               -->
+    <!-- *********************************************** -->
+
+    <!-- Settings theme -->
+    <style name="SettingsTheme" parent="android:Theme.Material.Settings">
+        <item name="android:statusBarColor">@color/color_accent</item>
+        <item name="android:colorAccent">@color/color_accent</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBarStyle</item>
+    </style>
+
+    <!-- Settings Action Bar style -->
+    <style name="SettingsTheme.ActionBarStyle" parent="android:Widget.Material.ActionBar">
+        <item name="android:background">@color/color_settings_action_bar</item>
+    </style>
+
+    <!-- *********************************************** -->
+    <!-- Text Styles                                     -->
+    <!-- *********************************************** -->
+
+    <style name="ThemeText" parent="@android:style/TextAppearance.Material.Headline">
+    </style>
+
+</resources>

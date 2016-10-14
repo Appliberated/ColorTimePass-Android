@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color Time Pass
+    Copyright (C) 2016 Appgramming. All rights reserved.
+    http://www.appgramming.com
+-->
+
+<resources>
+    <!-- Action bar -->
+    <dimen name="up_indicator_padding">16dp</dimen>
+
+    <!-- Year progress bar -->
+    <dimen name="progress_year_margin_top">-6dp</dimen>
+    <integer name="progress_year_max">16777215</integer>
+
+    <!-- Info text sizes -->
+    <dimen name="info1_text_size">34sp</dimen>
+    <dimen name="info2_text_size">24sp</dimen>
+    <dimen name="details_text_size">24sp</dimen>
+
+    <!-- Info text views -->
+    <dimen name="info_text_margin_bottom">0dp</dimen>
+
+    <!-- Details text view -->
+    <dimen name="details_text_left_padding">16dp</dimen>
+    <dimen name="details_text_right_padding">32dp</dimen>
+    <dimen name="details_text_margin_bottom">0dp</dimen>
+</resources>

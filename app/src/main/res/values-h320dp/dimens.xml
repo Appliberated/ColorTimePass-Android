@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color Time Pass
+    Copyright (C) 2016 Appgramming. All rights reserved.
+    http://www.appgramming.com
+-->
+
+<resources>
+    <!-- Info text views -->
+    <dimen name="info_text_margin_bottom">12dp</dimen>
+</resources>

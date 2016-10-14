@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color Time Pass
+    Copyright (C) 2016 Appgramming. All rights reserved.
+    http://www.appgramming.com
+-->
+
+<resources>
+    <!-- Info text sizes -->
+    <dimen name="info1_text_size">45sp</dimen>
+    <dimen name="info2_text_size">34sp</dimen>
+
+    <!-- Details text view -->
+    <dimen name="details_text_left_padding">32dp</dimen>
+    <dimen name="details_text_right_padding">96dp</dimen>
+</resources>

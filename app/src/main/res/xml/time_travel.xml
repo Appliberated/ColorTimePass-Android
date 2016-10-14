@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color Time Pass
+    Copyright (C) 2016 Appgramming. All rights reserved.
+    http://www.appgramming.com
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:hint="@string/pref_time_travel_goto_hint"
+        android:key="@string/pref_time_travel_goto_key"
+        android:summary="@string/pref_time_travel_goto_summary"
+        android:title="@string/pref_time_travel_goto_title"
+        />
+
+    <PreferenceCategory
+        android:key="@string/pref_category_sample_destinations_key"
+        android:persistent="false"
+        android:title="@string/pref_category_sample_destinations_title">
+
+        <SwitchPreference
+            android:defaultValue="@bool/pref_earlier_default"
+            android:key="@string/pref_earlier_key"
+            android:summary="@string/pref_earlier_summary"
+            android:title="@string/pref_earlier_title"/>
+
+        <Preference
+            android:key="@string/pref_destination_2010_01_22_key"
+            android:summary="@string/pref_destination_2010_01_22_summary"
+            android:title="@string/pref_destination_2010_01_22_title">
+            <extra
+                android:name="@string/intent_extra_date"
+                android:value="@string/pref_destination_2010_01_22_value"/>
+        </Preference>
+
+        <Preference
+            android:key="@string/pref_destination_2001_09_11_key"
+            android:summary="@string/pref_destination_2001_09_11_summary"
+            android:title="@string/pref_destination_2001_09_11_title">
+            <extra
+                android:name="@string/intent_extra_date"
+                android:value="@string/pref_destination_2001_09_11_value"/>
+        </Preference>
+
+        <Preference
+            android:key="@string/pref_destination_1970_01_01_key"
+            android:summary="@string/pref_destination_1970_01_01_summary"
+            android:title="@string/pref_destination_1970_01_01_title">
+            <extra
+                android:name="@string/intent_extra_date"
+                android:value="@string/pref_destination_1970_01_01_value"/>
+        </Preference>
+
+        <Preference
+            android:key="@string/pref_destination_1969_07_21_key"
+            android:summary="@string/pref_destination_1969_07_21_summary"
+            android:title="@string/pref_destination_1969_07_21_title">
+            <extra
+                android:name="@string/intent_extra_date"
+                android:value="@string/pref_destination_1969_07_21_value"/>
+        </Preference>
+
+        <Preference
+            android:key="@string/pref_destination_1945_08_06_key"
+            android:summary="@string/pref_destination_1945_08_06_summary"
+            android:title="@string/pref_destination_1945_08_06_title">
+            <extra
+                android:name="@string/intent_extra_date"
+                android:value="@string/pref_destination_1945_08_06_value"/>
+        </Preference>
+
+        <Preference
+            android:key="@string/pref_destination_1912_06_27_key"
+            android:summary="@string/pref_destination_1912_06_27_summary"
+            android:title="@string/pref_destination_1912_06_27_title">
+            <extra
+                android:name="@string/intent_extra_date"
+                android:value="@string/pref_destination_1912_06_27_value"/>
+        </Preference>
+
+        <Preference
+            android:key="@string/pref_destination_1912_04_14_key"
+            android:summary="@string/pref_destination_1912_04_14_summary"
+            android:title="@string/pref_destination_1912_04_14_title">
+            <extra
+                android:name="@string/intent_extra_date"
+                android:value="@string/pref_destination_1912_04_14_value"/>
+        </Preference>
+
+        <Preference
+            android:key="@string/pref_destination_1582_10_4_key"
+            android:summary="@string/pref_destination_1582_10_4_summary"
+            android:title="@string/pref_destination_1582_10_4_title">
+            <extra
+                android:name="@string/intent_extra_date"
+                android:value="@string/pref_destination_1582_10_4_value"/>
+        </Preference>
+
+        <Preference
+            android:key="@string/pref_destination_1492_10_02_key"
+            android:summary="@string/pref_destination_1492_10_02_summary"
+            android:title="@string/pref_destination_1492_10_02_title">
+            <extra
+                android:name="@string/intent_extra_date"
+                android:value="@string/pref_destination_1492_10_02_value"/>
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>
