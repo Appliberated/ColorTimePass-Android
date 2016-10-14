@@ -83,6 +83,13 @@ public class TimeTravelActivity extends PreferenceActivity {
             String dateValue = extras.getString(EXTRA_DATE);
 
             long diffSeconds = TrueColorTime.getTimeTravelDiffSeconds(dateValue);
+
+            // Do we have to arrive 1 minute earlier?
+            SwitchPreference earlierPreference = (SwitchPreference) findPreference(getString(R.string.pref_earlier_key));
+            long earlierSeconds = earlierPreference.isChecked() ? TimeUnit.MINUTES.toSeconds(1) : 0;
+            diffSeconds -= earlierSeconds;
+
+            // Time travel to sample destination
             goTimeTravel(diffSeconds);
         }
 
@@ -96,11 +103,6 @@ public class TimeTravelActivity extends PreferenceActivity {
      */
     @SuppressWarnings("deprecation")
     private void goTimeTravel(long diffSeconds) {
-
-        // Do we have to arrive 1 minute earlier?
-        SwitchPreference earlierPreference = (SwitchPreference) findPreference(getString(R.string.pref_earlier_key));
-        long earlierSeconds = earlierPreference.isChecked() ? TimeUnit.MINUTES.toSeconds(1) : 0;
-        diffSeconds -= earlierSeconds;
 
         // Save the time travel Diff Seconds to preferences
         final SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(this).edit();
