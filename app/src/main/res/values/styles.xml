@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Color Time Pass
-    Copyright (C) 2016 Appgramming. All rights reserved.
-    http://www.appgramming.com
+    Copyright (C) 2016-2025 Appliberated. All rights reserved.
+    https://www.appliberated.com/
+
+     Licensed under the MIT License.
+     See LICENSE file in the project root for full license information.
 -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
@@ -40,7 +43,6 @@
 
     <!-- Settings Action Bar style -->
     <style name="SettingsTheme.ActionBarStyle" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/color_settings_action_bar</item>
         <item name="android:displayOptions">showTitle</item>
     </style>
 

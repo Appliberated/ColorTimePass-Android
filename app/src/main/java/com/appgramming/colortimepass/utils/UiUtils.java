@@ -1,7 +1,10 @@
 /*
  * Color Time Pass
- * Copyright (C) 2016 Appgramming. All rights reserved.
- * http://www.appgramming.com
+ * Copyright (C) 2016-2025 Appliberated. All rights reserved.
+ * https://www.appliberated.com/
+ *
+ * Licensed under the MIT License.
+ * See LICENSE file in the project root for full license information.
  */
 package com.appgramming.colortimepass.utils;
 

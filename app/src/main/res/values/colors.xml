@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Color Time Pass
-    Copyright (C) 2016 Appgramming. All rights reserved.
-    http://www.appgramming.com
+    Copyright (C) 2016-2025 Appliberated. All rights reserved.
+    https://www.appliberated.com/
+
+     Licensed under the MIT License.
+     See LICENSE file in the project root for full license information.
 -->
 
 <resources>
     <color name="color_accent">#FF000000</color>
     <color name="color_main_action_bar">#FFFFFFFF</color>
-    <color name="color_settings_action_bar">#FF212121</color>
     <color name="color_parent_text">#FFFFFFFF</color>
 </resources>

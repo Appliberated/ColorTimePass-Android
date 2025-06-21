@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Color Time Pass
-    Copyright (C) 2016 Appgramming. All rights reserved.
-    http://www.appgramming.com
+    Copyright (C) 2016-2025 Appliberated. All rights reserved.
+    https://www.appliberated.com/
+
+     Licensed under the MIT License.
+     See LICENSE file in the project root for full license information.
 -->
 
 <resources>
@@ -30,12 +33,6 @@
     <style name="SettingsTheme" parent="android:Theme.Material.Settings">
         <item name="android:statusBarColor">@color/color_accent</item>
         <item name="android:colorAccent">@color/color_accent</item>
-        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBarStyle</item>
-    </style>
-
-    <!-- Settings Action Bar style -->
-    <style name="SettingsTheme.ActionBarStyle" parent="android:Widget.Material.ActionBar">
-        <item name="android:background">@color/color_settings_action_bar</item>
     </style>
 
     <!-- *********************************************** -->
