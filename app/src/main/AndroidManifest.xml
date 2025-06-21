@@ -21,24 +21,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.appgramming.colortimepass.SettingsActivity"
+            android:name="com.appliberated.colortimepass.SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName="com.appgramming.colortimepass.ColorTimePassActivity"
+            android:parentActivityName="com.appliberated.colortimepass.ColorTimePassActivity"
             android:theme="@style/SettingsTheme"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.appgramming.colortimepass.ColorTimePassActivity"/>
+                android:value="com.appliberated.colortimepass.ColorTimePassActivity"/>
         </activity>
         <activity
-            android:name="com.appgramming.colortimepass.TimeTravelActivity"
+            android:name="com.appliberated.colortimepass.TimeTravelActivity"
             android:label="@string/title_activity_time_travel"
-            android:parentActivityName="com.appgramming.colortimepass.ColorTimePassActivity"
+            android:parentActivityName="com.appliberated.colortimepass.ColorTimePassActivity"
             android:theme="@style/SettingsTheme"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.appgramming.colortimepass.ColorTimePassActivity"/>
+                android:value="com.appliberated.colortimepass.ColorTimePassActivity"/>
         </activity>
     </application>
 

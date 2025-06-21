@@ -15,7 +15,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.appgramming.colortimepass.ColorTimePassActivity"
+    tools:context="com.appliberated.colortimepass.ColorTimePassActivity"
     tools:ignore="MergeRootFrame">
 
     <LinearLayout

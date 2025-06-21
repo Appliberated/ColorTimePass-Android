@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.appgramming.colortimepass"
+    namespace = "com.appliberated.colortimepass"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.appgramming.colortimepass"
+        applicationId = "com.appliberated.colortimepass"
         minSdk = 14
         targetSdk = 35
         versionCode = 3

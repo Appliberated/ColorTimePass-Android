@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  * See LICENSE file in the project root for full license information.
  */
-package com.appgramming.colortimepass.helpers;
+package com.appliberated.colortimepass.helpers;
 
 import java.util.LinkedHashMap;
 

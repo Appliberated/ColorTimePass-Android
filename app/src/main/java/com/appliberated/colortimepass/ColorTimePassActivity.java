@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  * See LICENSE file in the project root for full license information.
  */
-package com.appgramming.colortimepass;
+package com.appliberated.colortimepass;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -26,11 +26,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.appgramming.colortimepass.helpers.TrueColorTime;
-import com.appgramming.colortimepass.utils.ColorUtils;
-import com.appgramming.colortimepass.utils.SystemUtils;
-import com.appgramming.colortimepass.utils.UiUtils;
-import com.appgramming.colortimepass.utils.Utils;
+import com.appliberated.colortimepass.helpers.TrueColorTime;
+import com.appliberated.colortimepass.utils.ColorUtils;
+import com.appliberated.colortimepass.utils.SystemUtils;
+import com.appliberated.colortimepass.utils.UiUtils;
+import com.appliberated.colortimepass.utils.Utils;
 
 import java.text.DateFormat;
 import java.text.NumberFormat;

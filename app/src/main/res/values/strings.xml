@@ -16,7 +16,7 @@
     <!-- *********************************************** -->
 
     <!-- Main Activity intent -->
-    <string name="intent_extra_date">com.appgramming.colortimepass.extra.DATE</string>
+    <string name="intent_extra_date">com.appliberated.colortimepass.extra.DATE</string>
 
     <!-- Action Bar items -->
     <string name="action_details">True color year</string>

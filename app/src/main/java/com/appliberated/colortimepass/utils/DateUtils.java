@@ -6,13 +6,13 @@
  * Licensed under the MIT License.
  * See LICENSE file in the project root for full license information.
  */
-package com.appgramming.colortimepass.utils;
+package com.appliberated.colortimepass.utils;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.text.TextUtils;
 
-import com.appgramming.colortimepass.R;
+import com.appliberated.colortimepass.R;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

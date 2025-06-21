@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  * See LICENSE file in the project root for full license information.
  */
-package com.appgramming.colortimepass.utils;
+package com.appliberated.colortimepass.utils;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -16,7 +16,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.widget.Toast;
 
-import com.appgramming.colortimepass.R;
+import com.appliberated.colortimepass.R;
 
 /**
  * System utility methods.

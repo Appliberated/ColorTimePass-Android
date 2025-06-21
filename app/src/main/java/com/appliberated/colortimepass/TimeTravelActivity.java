@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  * See LICENSE file in the project root for full license information.
  */
-package com.appgramming.colortimepass;
+package com.appliberated.colortimepass;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -20,7 +20,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.appgramming.colortimepass.helpers.TrueColorTime;
+import com.appliberated.colortimepass.helpers.TrueColorTime;
 
 import java.util.concurrent.TimeUnit;
 
@@ -29,7 +29,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class TimeTravelActivity extends PreferenceActivity {
 
-    private static final String EXTRA_DATE = "com.appgramming.colortimepass.extra.DATE";
+    private static final String EXTRA_DATE = "com.appliberated.colortimepass.extra.DATE";
 
     /**
      * Called when the activity is starting. Load the preferences from the XML resource.
