@@ -27,11 +27,11 @@ If you'd like to build the app yourself:
 
 4.  Click `Run 'app'`.
 
-The project is configured to work with a minimum API level of 9 (Android 2.3 Gingerbread).
+The project is configured to work with a minimum API level of 14 (Android 4 Ice Cream Sandwich).
 
 ## Technical Notes
 
-This project is intentionally kept simple as a learning example. It is written in [Java](app/src/main/java/com/appliberated/ColorTimePass-Android/ColorTimePassActivity.java) and uses the classic, plain Android SDK (`android.app.Activity`, `android.widget.TextView`, etc.) without any modern `androidx` libraries or Jetpack Compose. In fact, the `dependencies` section in the [build file](app/build.gradle.kts) is empty.
+This project is intentionally kept simple as a learning example. It is written in [Java](app/src/main/java/com/appliberated/colortimepass/ColorTimePassActivity.java) and uses the classic, plain Android SDK (`android.app.Activity`, `android.widget.TextView`, etc.) without any modern `androidx` libraries or Jetpack Compose. In fact, the `dependencies` section in the [build file](app/build.gradle.kts) is empty.
 
 This direct-to-the-SDK approach is the main reason the final `.apk` is only 93 KB. While this is not the recommended architecture for complex, modern applications, it serves as a clear example of a minimal, dependency-free Android app. The original code was written in 2016 and has been maintained to run on the latest Android versions while preserving this original, lightweight approach.
 
